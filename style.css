@@ -1,0 +1,151 @@
+/* === General Reset === */
+body {
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* === Navbar === */
+.navbar {
+  background-color: #0b7285;
+  transition: 0.3s ease;
+  font-size: small;
+}
+
+.navbar .nav-link {
+  color: #f8f9fa;
+  font-weight: 500;
+  width: 150px;
+  text-align: center;
+}
+
+.navbar .nav-link:hover {
+  color: #c8f4ff;
+  background-color: #0f3f477a;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.navbar .nav-link.active {
+  background-color: #0f3f47ca;
+  color: #c8f4ff;
+  /* border: 2px solid #333; */
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+/* === Jumbotron === */
+.jumbotron {
+  background-color: rgb(56, 56, 66);
+  padding-top: 7rem;
+}
+
+.jumbotron img {
+  border: 4px solid #0b7285;
+}
+
+.btn1 {
+  background-color: transparent;
+  font-size: small;
+  border: 2px solid #095d6a;
+  color: #fff;
+  /* border-radius: 10px; */
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #095d6a;
+  transform: translateY(-2px);
+}
+
+/* === Wave Effect === */
+.wave-bottom,
+.wave-top {
+  display: block;
+  margin-bottom: -1px;
+}
+
+/* === Profile Section === */
+.profile {
+  text-align: center;
+}
+
+#profile p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* === Project Section === */
+#project {
+  background-color: #e6fcf5;
+  margin-top: -2px; /* hilangkan garis batas */
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  object-fit: cover;
+}
+
+/* === Footer === */
+footer {
+  background-color: #0b7285;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+  .jumbotron {
+    text-align: center;
+  }
+
+  .jumbotron img {
+    width: 200px;
+  }
+
+  .display-5 {
+    font-size: 2rem;
+  }
+
+  #profile p {
+    width: 90%;
+    margin: auto;
+  }
+}
+.py-5#project {
+  padding-bottom: 15rem !important;
+}
+.graf {
+  color: #ffffffa2;
+}
+.hgl {
+  color: #0b7285;
+}
+.border-success {
+  --bs-border-opacity: 1;
+  border-color: #095d6a !important;
+}
+.contact a {
+  text-decoration: none;
+  font-size: medium;
+}
+.contact .btn1 {
+  color: #333;
+}
+.contact :hover {
+  color: #ffffff;
+  /* background-color: #095d6a; */
+}
+.btndw {
+  background-color: #095d6a;
+  color: white;
+}

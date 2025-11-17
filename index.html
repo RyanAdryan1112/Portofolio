@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ryan Adryan</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Ryan Adryan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item ms-1">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-light" id="home">
+      <div class="container text-center py-5">
+        <div class="row align-items-center flex-column flex-md-row">
+          <div class="col-md-7 text-md-start">
+            <p class="lead mb-2">
+              <span class="hgl"><b>Hallo, Saya</b></span>
+            </p>
+            <h1 class="display-5 fw-bold">Ryan Adryan</h1>
+            <p class="lead mb-3 graf">Mahasiswa IDE LPKIA</p>
+            <p class="graf">
+              Halo! Saya Ryan Adryan, seorang mahasiswa sekaligus pengembang web yang memiliki ketertarikan besar pada dunia IT. Saya senang mempelajari hal baru, terutama dalam pengembangan website yang responsif dan interaktif menggunakan
+              <span class="hgl"><b>HTML, CSS, dan JavaScript.</b></span>
+            </p>
+            <a href="#profile" class="btn btn-lg border-success px-5 btn1">About Me</a>
+
+            <div class="brand pt-4 ps-auto">
+              <!-- <a href=""><i class="fa-brands fa-instagram fa-xl text-light"></i></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wave -->
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-bottom" id="profile">
+        <path fill="#f8f9fa" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,202.7C384,192,480,160,576,144C672,128,768,128,864,154.7C960,181,1056,235,1152,229.3C1248,224,1344,160,1392,128L1440,96L1440,320L0,320Z"></path>
+      </svg> -->
+    </section>
+    <!-- End Jumbotron -->
+
+    <!-- Profile Section -->
+    <section class="profile bg-light" id="profile">
+      <!-- SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#383842"
+          fill-opacity="1"
+          d="M0,192L48,202.7C96,213,192,235,288,224C384,213,480,171,576,165.3C672,160,768,192,864,218.7C960,245,1056,267,1152,256C1248,245,1344,203,1392,181.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
+
+      <!-- SVG end -->
+      <div class="container text-center">
+        <div class="row">
+          <h2 class="fw-bold mb-5">About Me</h2>
+          <div class="col-md-5 mb-4 mb-md-0 text-center">
+            <h4 class="mb-4"><b>Ryan Adryan</b></h4>
+            <img src="image/foto Ryan1.jpg" alt="Ryan Adryan" width="250" class="rounded-circle img-thumbnail shadow" />
+          </div>
+          <div class="col">
+            <p class="mx-auto w-75 pt-5 text-md-start">
+              Nama saya Ryan Adryan Kusmana, saya tinggal di Bandung, saya sangat suka berolahraga dan sangat haus akan pengalaman, jadi banyak hal yang sangat ingin saya ketahui tentang dunia ini
+            </p>
+            <p class="mx-auto w-75 text-md-start">
+              Saya adalah mahasiswa yang memiliki semangat tinggi dalam dunia teknologi dan desain web. Saya berfokus pada pengembangan website yang modern, responsif, dan user-friendly menggunakan teknologi front-end seperti HTML, CSS, dan
+              JavaScript.
+            </p>
+            <div class="contact row row-cols-2">
+              <a href=""><button class="col-6 btn btn-lg btn1">Contact Me</button></a>
+              <a href=""><button class="col-6 btn btn-lg btndw btn1 text-light">Download CV</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Wave -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="wave-top">
+        <path fill="#e6fcf5" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,202.7C384,192,480,160,576,144C672,128,768,128,864,154.7C960,181,1056,235,1152,229.3C1248,224,1344,160,1392,128L1440,96L1440,320L0,320Z"></path>
+      </svg>
+    </section>
+    <!-- End Profile Section -->
+
+    <!-- Project Section -->
+    <section id="project" class="py-5">
+      <div class="container">
+        <h1 class="text-center mb-5 fw-bold">Skill & Experience</h1>
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-4 col-sm-6">
+            <div class="card shadow-sm h-100 text-center">
+              <img src="image/tkj2.png" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Experience</h5>
+                <p class="card-text">
+                  Berpengalaman dalam konfigurasi jaringan berbasis Mikrotik dan perangkat router/switch, melakukan instalasi LAN untuk lingkungan kecil hingga menengah, serta melakukan troubleshooting perangkat komputer dan jaringan.
+                </p>
+                <a href="#" class="btn btn-primary">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="card shadow-sm h-100 text-center">
+              <img src="image/web.png" class="card-img-top" alt="Project 2" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Skill Programming & Web Development</h5>
+                <p class="card-text">
+                  Memiliki kemampuan dalam membangun halaman web dasar menggunakan HTML, CSS, Bootstrap, serta mengembangkan fungsi backend sederhana menggunakan PHP dan SQL. Selain itu, menguasai pemrograman Python dan Java pada tingkat
+                  dasar.
+                </p>
+                <a href="#" class="btn btn-primary">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="card shadow-sm h-100 text-center">
+              <img src="image/futsal.png" class="card-img-top" alt="Project 1" />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Hobby</h5>
+                <p class="card-text">Saya memiliki hobi berolahraga, terutama sepak bola dan futsal. Aktivitas ini membantu saya menjaga kebugaran, melatih kerja sama tim, serta meningkatkan konsentrasi dan disiplin.</p>
+                <a href="#" class="btn btn-primary">Lihat Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Project Section -->
+
+    <!-- Footer -->
+    <footer class="text-center py-4 text-white">
+      <p class="mb-0">&copy; 2025 Ryan Adryan. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script>
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = document.querySelectorAll('section');
+
+      // === ACTIVE SAAT DIKLIK ===
+      navLinks.forEach((link) => {
+        link.addEventListener('click', function () {
+          navLinks.forEach((nav) => nav.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+
+      // === ACTIVE SAAT DI SCROLL ===
+      window.addEventListener('scroll', () => {
+        let currentSectionId = '';
+
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop - 120; // offset biar sesuai navbar fixed
+          const sectionHeight = section.clientHeight;
+
+          if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+            currentSectionId = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach((link) => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${currentSectionId}`) {
+            link.classList.add('active');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
